@@ -27,6 +27,13 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
+# Allow host access to Codespace URL and localhost
+ALLOWED_HOSTS += [
+    "[congenial-disco-9wr69jg44pvhprrv]-8000.app.github.dev",
+    "localhost",
+    "127.0.0.1"
+]
+
 
 # Application definition
 
